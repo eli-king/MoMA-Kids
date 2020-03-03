@@ -1,0 +1,296 @@
+	/* CSS coded sorted alphabetically */
+
+	/* HTML Elements -- sorted alphabetically*/
+
+	@import url('https://fonts.googleapis.com/css?family=Chewy|Open+Sans:300,400,600|Raleway:400,600&display=swap');
+
+	h1 {
+	    font-family: 'Raleway', serif;
+	    font-size: 3.125em;
+	    font-weight: 600;
+	    color: black;
+	}
+
+	h2 {
+	    font-family: 'Raleway', serif;
+	    font-size: 1.5em;
+	    font-weight: 600;
+	    color: black;
+	}
+
+	h6 {
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 0.9375em;
+	    font-weight: 300;
+	    color: black;
+	}
+
+
+
+	p {
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 1.1em;
+	    font-weight: 400;
+	    color: black;
+	}
+
+
+	/* IDs */
+
+	#mainImage {
+	    max-width: 100%;
+	    position: relative;
+	}
+
+
+	#featuredImage {
+	    max-width: 50%;
+	    position: relative;
+	}
+
+	#featuredText {
+	    margin-left: 30px;
+	    margin-top: 0;
+	    display: inline;
+	    position: absolute;
+	    max-width: 35%;
+
+	}
+
+
+	.unselected {
+	    font-family: 'Raleway', serif;
+	    color: darkgray;
+	    margin-top: 55px;
+	}
+
+	.selected {
+	    font-family: 'Raleway', serif;
+	    font-weight: 600;
+	    margin-top: 55px;
+
+	}
+
+	.price {
+	    font-weight: 300;
+	    margin: 0px;
+	}
+
+	.pageTitle {
+	    position: absolute;
+	    font-family: 'Chewy', sans-serif;
+	    font-size: 10.675em;
+	    font-weight: 400;
+	    color: white;
+	    float: left;
+	}
+
+	.finder {
+	    font-family: 'Open Sans', sans-serif;
+	}
+
+	.sorter {
+	    font-weight: 300em;
+	}
+
+	/* Large Screens */
+	@media screen and (min-width:1025px) {
+
+	    body {
+	        width: 75%;
+	        margin: auto;
+	    }
+
+	    /* Classes */
+
+	    .categoryLayout1 {
+	        margin-top: 30px;
+	        align-content: left;
+	    }
+
+	    .column1of3 {
+	        width: 245px;
+	        float: left;
+	    }
+
+	    .column2of3 {
+	        width: 330px;
+	        float: left;
+
+	    }
+
+	    .column3of3 {
+	        width: 580px;
+	        float: left;
+
+	    }
+
+	    .c1of3 {
+	        width: 33%;
+	        float: left;
+	    }
+
+	    .columnImage {
+	        max-width: 90%;
+	    }
+
+	    .container {
+	        position: relative;
+	    }
+
+	    .textOverlay {
+	        position: absolute;
+	        top: 150px;
+	        left: 275px;
+	        float: left;
+	    }
+
+	    .featuredProduct {
+	        padding-top: 30px;
+	    }
+
+	    .menu {
+	        padding: 0px, 1.5625%;
+	    }
+
+	    .menu a {
+	        float: left;
+	        margin: auto;
+	        display: inline;
+	        text-decoration: none;
+	        margin-left: 40px;
+	    }
+
+
+	    .menu a img {
+	        margin-top: 60px;
+	        max-height: 20px;
+	    }
+
+	}
+
+	/* Medium Screens */
+
+
+	@media screen and (max-width: 1024px) and (min-width:641px) {
+	    body {
+	        width: 90%;
+	        margin: auto;
+	    }
+
+
+	    .menu a > p {
+	        display: none;
+	    }
+
+	    .menu a img {
+	        margin-top: 55px;
+	        max-height: 20px;
+	    }
+
+	    .textOverlay {
+	        position: absolute;
+	        top: 55px;
+	        left: 125px;
+	        float: left;
+	    }
+
+	    .featuredProduct {
+	        display: none;
+
+	    }
+
+	    .categoryLayout1 {
+	        margin-top: 0px;
+	        align-content: left;
+	    }
+
+	    .column1of3 {
+	        width: 50%;
+	        float: left;
+	    }
+
+	    .column2of3 {
+	        width: 50%;
+	        float: left;
+
+	    }
+
+	    .column3of3 {
+	        width: 50%;
+	        float: left;
+
+	    }
+
+	    .columnImage {
+	        width: 250px;
+	        height: 250px;
+	    }
+	}
+
+	/* Small Screens */
+
+
+	@media screen and (max-width: 640px) {
+	    body {
+	        width: 95%;
+	        margin: auto;
+	    }
+
+
+	    .menu a > p {
+	        display: none;
+	    }
+
+	    .menu a img {
+	        margin-top: 0px;
+	        max-height: 20px;
+	    }
+
+	    .textOverlay {
+	        position: absolute;
+	        top: 150px;
+	        left: 125px;
+	        float: left;
+	    }
+
+	    .featuredProduct {
+	        display: none;
+
+	    }
+
+	    .categoryLayout1 {
+	        margin-top: 0px;
+	        align-content: left;
+	    }
+
+	    .column1of3 {
+	        width: 50%;
+	        float: left;
+	    }
+
+	    .column2of3 {
+	        width: 50%;
+	        float: left;
+
+	    }
+
+	    .column3of3 {
+	        width: 50%;
+	        float: left;
+
+	    }
+
+	    .columnImage {
+	        width: 250px;
+	        height: 250px;
+	    }
+
+	    .pageTitle {
+	        position: absolute;
+	        font-family: 'Chewy', sans-serif;
+	        font-size: 5em;
+	        font-weight: 400;
+	        color: white;
+	        float: left;
+	    }
